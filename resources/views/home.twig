@@ -1,0 +1,10 @@
+{% extends "templates/layout.twig" %}
+
+{% block content %}
+
+{# Lista o resultado de produtos #}
+{% for produto in produtos %}
+<p>{{ produto.nome }}</p>    
+{% endfor %}
+
+{% endblock %}
